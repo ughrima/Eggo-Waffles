@@ -4,19 +4,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="title">
-      Productivity Extension!
+    <div class="title" id="quotes">
+      Increase your <br> Productivity!
     </div>
+
+    <img id="eggz" class = "initialEgg" width = "150px" height = "180px" src = "assets/egg.png">
+
     <div class = "welcome-container">
       <button class="button-55" id="startTimer">
        Click to crack the egg!
       </button>
     </div>
-    <!--
-    <img class = "initialEgg" width = "350px" height = "250px" src = "initial_dark_green-removebg.png">
-    -->
-    <p id="countdown"></p>
-    <script src = "script.js"></script>
+
+    <!-- bg music -->
+   <!-- <audio id="bgMusic" loop>
+      <source src="assets/Far From Any Road.mp3" type="audio/mpeg">
+  </audio> -->
+  <!-- <button id="toggleMusic">Play/Pause Music</button> -->
+
+    <div class="timerWrap">
+    <div class = "timerDec" id = "timerDec"> 	&#x2B05;</div>
+    <div class="result" id="result">5:00</div>
+    <div class = "timerInc" id = "timerInc">	&#x27A1;</div>
+    </div>
+
+
+  <script src = "script.js"></script>
+  <script src = "content.js"></script>
 </body>
   
 </html>
+
